@@ -1,0 +1,6 @@
+{
+  "src": [
+    "pages/login/Login",
+    "pages/workArea/WorkArea"
+  ]
+}

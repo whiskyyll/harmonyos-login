@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_title",
+      "value": "Login Page"
+    },
+    {
+      "name": "login_tip",
+      "value": "Login to your account for more services"
+    },
+    {
+      "name": "sign_in",
+      "value": "Sign In"
+    },
+    {
+      "name": "sign_up",
+      "value": "Sign Up"
+    },
+    {
+      "name": "login_way",
+      "value": "Other Login Way"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "password",
+      "value": "Password"
+    },
+    {
+      "name": "sms_verify_code",
+      "value": "Sms Verify Code"
+    },
+    {
+      "name": "forget_password",
+      "value": "Forget Password"
+    },
+    {
+      "name": "target",
+      "value": "Work Target"
+    },
+    {
+      "name": "sub_target",
+      "value": "Sub Target"
+    },
+    {
+      "name": "overall_progress",
+      "value": "Overall Progress "
+    },
+    {
+      "name": "updated_time",
+      "value": "Updated Time"
+    }
+  ]
+}
