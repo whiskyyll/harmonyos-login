@@ -63,6 +63,30 @@
     {
       "name": "updated_time",
       "value": "更新时间"
+    },
+    {
+      "name": "add_sub_tartget",
+      "value": "添加子目标"
+    },
+    {
+      "name": "edit",
+      "value": "编辑"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "selectAll",
+      "value": "全选"
+    },
+    {
+      "name": "delete",
+      "value": "删除"
+    },
+    {
+      "name": "completed",
+      "value": "完成"
     }
   ]
 }

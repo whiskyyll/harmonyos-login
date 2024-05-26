@@ -63,6 +63,30 @@
     {
       "name": "updated_time",
       "value": "Updated Time"
+    },
+    {
+      "name": "add_sub_tartget",
+      "value": "Add Sub Target"
+    },
+    {
+      "name": "edit",
+      "value": "Edit"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "selectAll",
+      "value": "SelectAll"
+    },
+    {
+      "name": "delete",
+      "value": "Delete"
+    },
+    {
+      "name": "completed",
+      "value": "Completed"
     }
   ]
 }
