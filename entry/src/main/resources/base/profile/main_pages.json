@@ -1,6 +1,6 @@
 {
   "src": [
-    "pages/login/Login",
-    "pages/workArea/WorkArea"
+    "pages/home/Home",
+    "pages/weather/Weather"
   ]
 }
