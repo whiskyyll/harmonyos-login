@@ -1,6 +1,5 @@
 {
   "src": [
-    "pages/home/Home",
-    "pages/weather/Weather"
+    "pages/moments/Moments"
   ]
 }

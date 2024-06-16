@@ -1,11 +1,10 @@
 @CustomDialog
 export struct CustomDialogExample {
-  @Link newTarget: string
+  @Link newComment: string
 
   inputText?: string
   controller?: CustomDialogController
   @State errorMsg: string = ''
-  isInvalid: (value) => boolean
 
   build() {
     Column() {
@@ -20,7 +19,7 @@ export struct CustomDialogExample {
             this.inputText = value
             this.errorMsg = ''
           } else {
-            this.errorMsg = '目标不可为空'
+            this.errorMsg = '评论不可为空'
           }
         })
       Text(this.errorMsg)
@@ -33,25 +32,21 @@ export struct CustomDialogExample {
         Text($r('app.string.cancel'))
           .onClick(() => {
             this.controller.close()
-          }).fontColor($r('app.color.link'))
+          }).fontColor(Color.Blue)
         Text('确定')
           .onClick(() => {
             if (this.errorMsg !== '') {
               return;
             }
-            if (this.isInvalid(this.inputText)) {
-              this.errorMsg = '该目标已存在，不可重复添加'
-              return;
-            }
             if (this.controller != undefined) {
               if (this.inputText && this.inputText.trim().length > 0) {
-                this.newTarget = this.inputText.trim()
+                this.newComment = this.inputText.trim()
                 this.controller.close()
               } else {
-                this.errorMsg = '目标不可为空'
+                this.errorMsg = '评论不可为空'
               }
             }
-          }).fontColor($r('app.color.link'))
+          }).fontColor(Color.Blue)
       }
       .margin({ top: 3 })
     }.borderRadius(5)
