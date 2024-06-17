@@ -32,19 +32,19 @@ export struct MomentsInfo {
           .fontWeight(700)
         Text(`${this.moment.content || ''} `)
         if (this.moment.images && this.moment.images.length > 0) {
-          Grid() {
-            ForEach(this.moment.images, (image: { url: string }) => {
-              GridItem() {
+          GridRow({
+            columns: 6,
+            gutter: { x: 3, y: 3 },
+            direction: GridRowDirection.Row
+          }) {
+            ForEach(this.moment.images, (image) => {
+              GridCol({ span: { xs: 1, sm: 2, md: 3, lg: 4 } }) {
                 Image(image.url)
                   .width(50)
                   .height(50)
               }
-            }, image => image)
-          }
-          .layoutDirection(GridDirection.Row)
-          .maxCount(3)
-          .columnsGap(10)
-          .rowsGap(10)
+            })
+          }.width(160)
         }
         Text('评论')
           .fontSize(10)
